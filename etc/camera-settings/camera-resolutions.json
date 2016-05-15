@@ -1,0 +1,81 @@
+{
+    "primary":
+    {
+        "image":
+        [
+            { "resolution": "4208x3120", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "4160x3120", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "4160x2340", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "4000x3000", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "4096x2160", "viewFinder": "864x480", "aspectRatio": "9:5" },
+            { "resolution": "3200x2400", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "3200x1800", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "2592x1944", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "2048x1536", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1920x1080", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1600x1200", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1280x960", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1280x768", "viewFinder": "800x480", "aspectRatio": "16:10" },
+            { "resolution": "1280x720", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1024x768", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "800x600", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "800x480", "viewFinder": "800x480", "aspectRatio": "16:10" },
+            { "resolution": "720x480", "viewFinder": "720x480", "aspectRatio": "3:2" },
+            { "resolution": "640x480", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "352x288", "viewFinder": "?:?", "aspectRatio": "5:4" },
+            { "resolution": "320x240", "viewFinder": "1440x1080", "aspectRatio": "4:3" }
+        ],
+        "video":
+        [
+            { "resolution": "4096x2160", "viewFinder": "864x480", "aspectRatio": "9:5" },
+            { "resolution": "3840x2160", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "2560x1440", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1920x1080", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1280x960", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1280x720", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "800x480", "viewFinder": "800x480", "aspectRatio": "16:10" },
+            { "resolution": "720x480", "viewFinder": "720x480", "aspectRatio": "3:2" },
+            { "resolution": "640x480", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "480x320", "viewFinder": "720x480", "aspectRatio": "3:2" },
+            { "resolution": "352x288", "viewFinder": "?:?", "aspectRatio": "5:4" },
+            { "resolution": "320x240", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "176x144", "viewFinder": "?:?", "aspectRatio": "5:4" },
+            { "resolution": "160x120", "viewFinder": "1440x1080", "aspectRatio": "4:3" }
+        ]
+    },
+    "secondary":
+    {
+        "image":
+        [
+            { "resolution": "3264x2448", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "2592x1944", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "2048x1536", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1920x1080", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1600x1200", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1280x960", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "1280x720", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1280x768", "viewFinder": "800x480", "aspectRatio": "16:10" },
+            { "resolution": "1024x768", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "800x600", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "800x480", "viewFinder": "800x480", "aspectRatio": "16:10" },
+            { "resolution": "720x480", "viewFinder": "720x480", "aspectRatio": "3:2" },
+            { "resolution": "640x480", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "352x288", "viewFinder": "?:?", "aspectRatio": "5:4" },
+            { "resolution": "320x240", "viewFinder": "1440x1080", "aspectRatio": "4:3" }
+        ],
+        "video":
+        [
+            { "resolution": "2560x1440", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1920x1080", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "1280x720", "viewFinder": "1920x1080", "aspectRatio": "16:9" },
+            { "resolution": "864x480", "viewFinder": "864x480", "aspectRatio": "9:5" },
+            { "resolution": "800x480", "viewFinder": "800x480", "aspectRatio": "16:10" },
+            { "resolution": "720x480", "viewFinder": "720x480", "aspectRatio": "3:2" },
+            { "resolution": "640x480", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "480x320", "viewFinder": "720x480", "aspectRatio": "3:2" },
+            { "resolution": "352x288", "viewFinder": "?:?", "aspectRatio": "5:4" },
+            { "resolution": "320x240", "viewFinder": "1440x1080", "aspectRatio": "4:3" },
+            { "resolution": "176x144", "viewFinder": "?:?", "aspectRatio": "5:4" }
+        ]
+    }
+}

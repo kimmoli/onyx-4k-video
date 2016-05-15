@@ -12,7 +12,7 @@ License:    LICENSE
 URL:        http://forum.xda-developers.com/oneplus-x/orig-development/mod-custom-camera-hal-4k-uhd-dci-30-fps-t3315382
 Source0:    %{name}-%{version}.tar.bz2
 
-Requires:   onyx-camera-settings-plugin
+AutoReqProv: no
 
 %description
 Sultanxda 4K video patch convenience rpm package

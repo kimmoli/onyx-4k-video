@@ -10,8 +10,8 @@ INSTALLS = system etc
 
 OTHER_FILES += \
     rpm/onyx-4k-video.spec \
-    etc/media_profiles_4k.xml \
     etc/camera-settings/camera-resolutions.json \
+    system/etc/media_profiles_4k.xml \
     system/lib/hw/camera.msm8974.so \
     system/lib/libmmcamera_interface.so \
     system/lib/libmmjpeg_interface.so \

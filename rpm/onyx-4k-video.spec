@@ -34,6 +34,7 @@ rm -rf %{buildroot}
 %pre
 /usr/bin/ssu mo | grep -q "onyx" || exit 1
 /bin/mount -n -o remount,rw /system || exit 1
+cp /system/etc/media_profiles.xml /system/etc/media_profiles.org || :
 cp /system/lib/hw/camera.msm8974.so /system/lib/hw/camera.msm8974.org || :
 cp /system/lib/libmmcamera_interface.so /system/lib/libmmcamera_interface.org || :
 cp /system/lib/libmmjpeg_interface.so /system/lib/libmmjpeg_interface.org || :
@@ -43,16 +44,11 @@ cp /system/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so /system/vendor/lib/libch
 cp /system/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so /system/vendor/lib/libchromatix_s5k3m2_hfr_60fps.org || :
 cp /system/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so /system/vendor/lib/libchromatix_s5k3m2_hfr_90fps.org || :
 
-%post
-rm -f /etc/media_profiles.xml || :
-mv /etc/media_profiles_4k.xml /etc/media_profiles.xml || exit 1
-
 %preun
 /bin/mount -n -o remount,rw /system || exit 1
 
 %postun
-rm -f /etc/media_profiles.xml || :
-ln -s /system/etc/media_profiles.xml /etc/media_profiles.xml || :
+cp /system/etc/media_profiles.org /system/etc/media_profiles.xml || :
 cp /system/lib/hw/camera.msm8974.org /system/lib/hw/camera.msm8974.so || :
 cp /system/lib/libmmcamera_interface.org /system/lib/libmmcamera_interface.so || :
 cp /system/lib/libmmjpeg_interface.org /system/lib/libmmjpeg_interface.so || :
@@ -64,9 +60,9 @@ cp /system/vendor/lib/libchromatix_s5k3m2_hfr_90fps.org /system/vendor/lib/libch
 
 %files
 %defattr(644,root,root,755)
-/etc/media_profiles_4k.xml
 /etc/camera-settings
 /etc/camera-settings/camera-resolutions.json
+/system/etc/media_profiles.xml
 /system/lib/hw/camera.msm8974.so
 /system/lib/libmmcamera_interface.so
 /system/lib/libmmjpeg_interface.so
